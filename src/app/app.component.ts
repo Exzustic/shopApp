@@ -7,9 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ShopApp';
-  loadedNavigation = 'recipe';
 
-  onNavigate(event: string) {
-    this.loadedNavigation = event;
-  }
 }
